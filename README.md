@@ -1,58 +1,37 @@
 # ⚠️ Disclaimer & Educational Notice
 
-**This project is created strictly for educational, research, and hobbyist purposes to demonstrate the capabilities of real-time object detection using Python and YOLOv8.** 
-
-* **No Game Modification:** This software does not inject code, alter game memory, or modify any proprietary game files. It operates entirely as an external computer vision system analyzing local screen pixels.
+**This project is created strictly for educational, research, and hobbyist purposes to demonstrate the capabilities of real-time object detection using Python and YOLOv8.** * **No Game Modification:** This software does not inject code, alter game memory, or modify any proprietary game files. It operates entirely as an external computer vision system analyzing local screen pixels.
 * **Terms of Service Warning:** Utilizing automated tools, macros, or assistive vision scripts in online multiplayer environments violates the Terms of Service (ToS) of most game developers and can result in permanent account bans. 
 * **Intended Use:** This repository is intended to be run exclusively in private offline testing environments, single-player modes, or custom training maps where automated tools are explicitly allowed. 
 * **Liability:** The author assumes no responsibility or liability for any account bans, hardware flags, or misuse of this code by third parties. Use responsibly and at your own risk.
 
-# Ai-Aimbot-with-python-and-YOLO-v8
-To run this you need python 3.12.9
+# AI-Aimbot-with-python-and-YOLO-v8
+To run this you need Python 3.12.9
 
-1. go to code and downloade the zip file 
+1. Go to code and download the ZIP file.
+2. Copy the ZIP to Desktop.
+3. Extract the ZIP.
+4. Open the requirements .txt files. If you are using Nvidia, only download Nvidia requirements. If not, download the non-Nvidia requirements only. To download the requirements, open CMD, copy and paste one and wait. After it finishes, copy the next and install it. You will need to install all of them to run the aimbot.
+5. Open `main.py` after installation of the requirements and the aimbot will start running and a GUI will pop up.
 
-2. copy the zip to Desktop
+**Note:** Don't change any name or location or remove any files from the folder `main.py` is found, otherwise it's not going to work.
 
-3. extract the zip 
-
-4. open the requrements txt files if you are useing nvidea only downloade nvidea requrements if not doawnloade the non nvidea requrements only   to downloade the requrements open cmd copy and past one and waite after it finish copy the next and 
-install it you will need to install all of them to run the aimbot
-
-5. open  main.py after installaion of the requrements and the aimbot will start runing and a GUI  will pop up
-
-note : dont change any name or loactaion or remove any files from the folder main.py is found otherwise its not going to work
-# requmended setings and how to use 
-1. select weight file i would requmend the uneversal  one to use select it
-
-2. press on enable operational tracker then select what button you want to enable auto aiming you need to be pressing on the button for the aiming to work if you take  you finger of the selected button it wont track any player you need to be pressing on the selected button to auto aim for you
-
-3. select the input driver i would requmend pywin32
-
-4. i would requmedn not changing the next group of setings except on the target axis alighment its responsible for the place it auto aims like vlues like 0.19 aim at the player head and vlue like 90 aim at the player feet
-
-5. the next seting is active canvas fov higher value makes the circle go bigger which is more detection range the script detects what is in the circle only and aims on what is in the circle only i dont requmend going more than 500px
-
-6. the next seting i would requmend keeping it on 40 to 45 its the confidence rate like if it was not confident it wont aim at the target  but puting confedense too low can make it aim at walls and random stuff
-
-7. lastly chose a clour for the circle on the screen i would requmend blue
-
-
-
+# Recommended settings and how to use 
+1. Select weight file. I would recommend the universal one to use. Select it.
+2. Press on enable operational tracker, then select what button you want to enable auto aiming. You need to be pressing on the button for the aiming to work. If you take your finger off the selected button, it won't track any player. You need to be pressing on the selected button to auto aim for you.
+3. Select the input driver. I would recommend **pywin32**.
+4. I would recommend not changing the next group of settings except on the target axis alignment. It's responsible for the place it auto aims. Values like `0.19` aim at the player's head and values like `90` aim at the player's feet.
+5. The next setting is active canvas FOV. Higher values make the circle go bigger, which is more detection range. The script detects what is in the circle only and aims on what is in the circle only. I don't recommend going more than 500px.
+6. The next setting I would recommend keeping it on 40 to 45. It's the confidence rate. Like if it was not confident, it won't aim at the target, but putting confidence too low can make it aim at walls and random stuff.
+7. Lastly, choose a color for the circle on the screen. I would recommend blue.
 
 # Other Information 
-this is going to support the gpu for nvidea users  only this dosent support amd for amd its going to use the cpu instead of gpu and also for intergrated graphics users 
+This is going to support the GPU for Nvidia users only. This doesn't support AMD. For AMD, it's going to use the CPU instead of GPU, and also for integrated graphics users. 
 
-the cpu only will make the aimbot run on lower fps 
+The CPU only will make the aimbot run on lower FPS. 
 
-if it dosent work try using vscode venv 
+If it doesn't work, try using VSCode venv. 
 
-the requrements is going to need about 7 GB and take time for installaion
+The requirements is going to need about 7 GB and take time for installation.
 
-this script support all pt or onnx files just drop them on the same folder or place as main.py
-
-
-
-
-
-
+This script supports all `.pt` or `.onnx` files. Just drop them on the same folder or place as `main.py`.
