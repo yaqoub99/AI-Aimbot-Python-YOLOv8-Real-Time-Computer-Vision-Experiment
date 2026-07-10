@@ -1,3 +1,12 @@
+# ⚠️ Disclaimer & Educational Notice
+
+**This project is created strictly for educational, research, and hobbyist purposes to demonstrate the capabilities of real-time object detection using Python and YOLOv8.** 
+
+* **No Game Modification:** This software does not inject code, alter game memory, or modify any proprietary game files. It operates entirely as an external computer vision system analyzing local screen pixels.
+* **Terms of Service Warning:** Utilizing automated tools, macros, or assistive vision scripts in online multiplayer environments violates the Terms of Service (ToS) of most game developers and can result in permanent account bans. 
+* **Intended Use:** This repository is intended to be run exclusively in private offline testing environments, single-player modes, or custom training maps where automated tools are explicitly allowed. 
+* **Liability:** The author assumes no responsibility or liability for any account bans, hardware flags, or misuse of this code by third parties. Use responsibly and at your own risk.
+
 # Ai-Aimbot-with-python-and-YOLO-v8
 To run this you need python 3.12.9
 
