@@ -26,6 +26,8 @@ note : dont change any name or loactaion or remove any files from the folder mai
 
 6. the next seting i would requmend keeping it on 40 to 45 its the confidence rate like if it was not confident it wont aim at the target  but puting confedense too low can make it aim at walls and random stuff
 
+7. lastly chose a clour for the circle on the screen i would requmend blue
+
 
 
 
