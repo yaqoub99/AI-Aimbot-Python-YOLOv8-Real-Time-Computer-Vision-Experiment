@@ -1,28 +1,24 @@
 open cmd and run one by one 
-note : this may take time so wait to finish installations 
+note : this may take time so wait to finish installations and wont show anything in the cmd so waite to the line to stop blinking and your able yo enter the second command to install the next one 
 
-pip install numpy>=1.24.0
+pip install numpy~=1.24.0
 
-pip install opencv-python>=4.9.0
+pip install opencv-python~=4.9.0
 
-pip install mss>=9.0.1
+pip install mss~=9.0.1
 
-pip install screeninfo>=0.8.1
+pip install screeninfo~=0.8.1
 
-pip install pynput>=1.7.6
+pip install pynput~=1.7.6
 
-pip install pywin32>=306
+pip install pywin32~=306
 
-pip install pydirectinput>=0.1.7
+pip install pydirectinput~=0.1.7
 
-pip install mouse>=0.7.1
+pip install mouse~=0.7.1
 
-pip install PySide6>=6.6.0
+pip install PySide6~=6.6.0
 
 pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
 
-pip install ultralytics>=8.2.0
-
-
-
-
+pip install ultralytics~=8.2.0
