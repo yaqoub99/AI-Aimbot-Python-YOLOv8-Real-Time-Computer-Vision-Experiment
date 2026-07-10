@@ -38,7 +38,7 @@ the cpu only will make the aimbot run on lower fps
 
 if it dosent work try using vscode venv 
 
-the requrements is going to need about 7 GB 
+the requrements is going to need about 7 GB and take time for installaion
 
 
 
