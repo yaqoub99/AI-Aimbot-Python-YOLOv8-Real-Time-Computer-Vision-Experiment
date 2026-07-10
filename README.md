@@ -36,6 +36,9 @@ this is going to support the gpu for nvidea users  only this dosent support amd 
 
 the cpu only will make the aimbot run on lower fps 
 
+if it dosent work try using vscode venv 
+
+
 
 
 
