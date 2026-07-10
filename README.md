@@ -20,9 +20,11 @@ note : dont change any name or loactaion or remove any files from the folder mai
 
 3. select the input driver i would requmend pywin32
 
-4. i would requmedn not changing the next group of setings except on the target axis alighment its responsible for the place it auto aims like vlues like 0.19 aim at the player head and vlue like 90 aim at the player feet 
+4. i would requmedn not changing the next group of setings except on the target axis alighment its responsible for the place it auto aims like vlues like 0.19 aim at the player head and vlue like 90 aim at the player feet
 
+5. the next seting is active canvas fov higher value makes the circle go bigger which is more detection range the script detects what is in the circle only and aims on what is in the circle only i dont requmend going more than 500px
 
+6. the next seting i would requmend keeping it on 40 to 45 
 
 
 
