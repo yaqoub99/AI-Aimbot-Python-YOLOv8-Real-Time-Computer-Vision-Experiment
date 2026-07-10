@@ -24,7 +24,7 @@ note : dont change any name or loactaion or remove any files from the folder mai
 
 5. the next seting is active canvas fov higher value makes the circle go bigger which is more detection range the script detects what is in the circle only and aims on what is in the circle only i dont requmend going more than 500px
 
-6. the next seting i would requmend keeping it on 40 to 45 
+6. the next seting i would requmend keeping it on 40 to 45 its the confidence rate like if it was not confident it wont aim at the target  but puting confedense too low can make it aim at walls and random stuff
 
 
 
